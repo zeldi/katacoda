@@ -10,22 +10,6 @@
       {
         "title": "Step 2",
         "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
-      },
-      {
-        "title": "Step 6",
-        "text": "step6.md"
       }
     ],
     "assets": {
@@ -54,7 +38,7 @@
     },
     "intro": {
       "text": "intro.md",
-      "credits": "__Author:__ Sean Cavanaugh, Ansible Contributor (Red Hat)",
+      "credits": "__Author:__ Zeldi Suryady, (TM RnD)",
       "courseData": "background.sh",
       "code": "foreground.sh"
     },
