@@ -1,3 +1,3 @@
 # Getting Started with ANSIBLE
 
-This is a Ansible Sandbox.
+Let's learn about ANSIBLE Automation Tool
