@@ -1,6 +1,6 @@
 {
   "title": "Learning Ansible",
-  "description": "-A humble sandbox by a humble guy, to start learning ANSIBLE",
+  "description": "+A humble sandbox by a humble guy, to start learning ANSIBLE",
     "details": {
     "steps": [
       {
@@ -54,7 +54,7 @@
     },
     "intro": {
       "text": "intro.md",
-      "credits": "__Author:__ Sean Cavanaugh, Ansible Contributor (Red Hat)",
+      "credits": "__Author:__ Zeldi Suryady",
       "courseData": "background.sh",
       "code": "foreground.sh"
     },
