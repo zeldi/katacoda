@@ -1,6 +1,7 @@
 {
-  "title": "Learning Ansible",
-  "description": "Ansible Bootstrapping",
+  "private": true,
+  "title": "Drafting Playground for Tensorflow",
+  "description": "Tensorflow Bootstrapping -- drafting (not yet available publicly",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
