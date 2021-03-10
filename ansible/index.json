@@ -1,6 +1,6 @@
 {
   "title": "Learning Ansible",
-  "description": "+A humble sandbox by a humble guy, to start learning ANSIBLE",
+  "description": "A humble sandbox by a humble guy, to start learning ANSIBLE",
     "details": {
     "steps": [
       {
@@ -39,8 +39,7 @@
     "intro": {
       "text": "intro.md",
       "credits": "__Author:__ Zeldi Suryady",
-      "courseData": "setup_ansible.sh",
-      "code": "foreground.sh"
+      "code": "setup_ansible.sh",
     },
     "finish": {
       "text": "finish.md"
