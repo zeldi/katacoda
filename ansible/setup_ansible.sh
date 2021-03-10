@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yum install -y git && git clone https://github.com/irixjp/katacoda-scenarios && cd katacoda-scenarios/master-course-data/assets/tools/
+yum install -y git && git clone https://github.com/zeldi/katacoda-scenarios.git && cd katacoda-scenarios/master-course-data/assets/tools/
 
 yum install -y ansible ansible-lint yamllint python-docker-py tree
 
