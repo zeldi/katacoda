@@ -1,6 +1,6 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "Learning Ansible",
+  "description": "Ansible Bootstrapping",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
