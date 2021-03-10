@@ -2,15 +2,13 @@
 
  You have access to the following hosts:
 
-| Role                 | Inventory name | IP Address     |
-| ---------------------| ---------------| ---------------|
-| Ansible Control node | host01         | `[[HOST1_IP]]` |
-| Managed host 2       | host02         | `[[HOST2_IP]]` |
-| Managed host 3       | host03         | `[[HOST3_IP]]` |
+| Role                    | Inventory name | IP Address     |
+| ------------------------| ---------------| ---------------|
+| Ansible Control node    | host01         | `[[HOST1_IP]]` |
+| Managed node-1 (Docker) | node-1         | 172.20.0.2 |
+| Managed node-2 (Docker) | node-2         | 172.20.0.3 |
 
-A control node is any machine with Ansible installed. All three nodes are running Red Hat Enterprise Linux 8. To see what version of Red Hat Enterprise is running on the server use the Linux `cat` command to examine the `/etc/redhat-release` file.    
-
-`cat /etc/redhat-release`{{execute}}
+A control node is any machine with Ansible installed. 
 
 # Examining /etc/hosts
 
