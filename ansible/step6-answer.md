@@ -1,19 +1,6 @@
 # EXERCISE
 ---
 
-## Solution
-
-### Create an `index.html` file
-
-````
-mkdir ~/myansible/files && 
-cat << EOF > ~/myansible/files/index.html
-<B>HELLLO ANSIBLE</B>
-EOF
-```{{execute}}
-
-### Ansible Playbook
-
 ````
 cat << EOF > ~/myansible/install.yml
 ---
