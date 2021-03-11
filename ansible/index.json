@@ -19,7 +19,7 @@
             "file": "hosts",
             "target": "/etc/hosts",
             "chmod": 644
-          },
+          }
         ]
     },
     "intro": {
