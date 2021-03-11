@@ -30,18 +30,19 @@ Let's create a playbook called `sync.yml` that perform the following tasks:
 2. Copy `myhosts.ini` file to `inventory` directory on all target nodes
 
 ```
----
-- name: Directory syncronization
-  hosts: all
+--- 
+- name: "Directory syncronization"
+  hosts: web
   remote_user: centos
-  tasks:
-  — name: Creates directory
-    file: 
-      path: /home/centos/inventory 
-      state: directory
-  - copy:
-      src: /root/myansible/myhosts.ini
-      dest: /home/centos/myhosts.ini
+  tasks: 
+    - name: "Create directory"
+      file: 
+        path: /home/centos/inventory
+        state: directory
+    - name: copy file
+      copy:
+        src: /root/myansible/myhosts.ini
+        dest: /home/centos/inventory/myhosts.ini
 
 ```
 
