@@ -31,7 +31,8 @@
       {
         "title": "Step 6",
         "text": "step6.md",
-        "code": "clear.sh"
+        "code": "clear.sh",
+        "answer": "step6-answer.md"
       }
 
     ],

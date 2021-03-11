@@ -1,7 +1,7 @@
 # EXERCISE
 ---
 
-## Install and Deploy NGINX Web Server
+## Create an Ansible Playbook Install and Deploy NGINX Web Server
 
 1. Create an `index.html` file
 
@@ -20,6 +20,7 @@ The playbook should look like this:
 ---
 - name: Install NGINX Server
   hosts: web
+  remote_user: centos
   become: yes
   tasks:
 
@@ -30,5 +31,5 @@ The playbook should look like this:
 * become - this play will use all tasks in privileged mode (root)
 * tasks - the tasks are outlined as follows:
   - Install NGINX package (clue: use `yum` module)
-  - Enable/start httpd service (clue: use `service` module)
+  - Enable/start NGINX service (clue: use `service` module)
   - Copy over an `index.html` file to each web host (clue: use `copy` module)
