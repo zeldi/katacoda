@@ -1,7 +1,7 @@
 # Creating Inventory File
 ---
 
-To let Ansible know about it, put its hostname in an __inventory_ file. Let's call our inventory `myhosts.ini` and group all the hosts to a single group called `web`
+To let Ansible know about it, put its hostname in an __inventory__ file. Let's call our inventory `myhosts.ini` and group all the hosts to a single group called `web`
 
 ````
 cat << EOF > /root/myansible/myhosts.ini

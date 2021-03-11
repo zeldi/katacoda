@@ -24,7 +24,9 @@ This will generate `~/.ssh/id_rsa.pub` and `~/.ssh/id_rsa` on the `~/.ssh direct
 Now, In order to inform the target about the ansible host's public SSH key, we need to copy this SSH to all target machine:
 
 `ssh-copy-id centos@node-1`{{execute}}
+
 `ssh-copy-id centos@node-2`{{execute}}
+
 `ssh-copy-id centos@node-3`{{execute}}
 
 >__Note__: When password prompt appears, enter `centos` as the password for user `centos`
@@ -36,3 +38,5 @@ Now we test the connection, that had failed previously:
 
 `ansible web -i myhosts.ini -m ping`{{execute}}
 
+----
+Next step we will discuss about Ad-hoc command or Imperative command of Ansible.
