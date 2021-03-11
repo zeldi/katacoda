@@ -32,7 +32,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/",
     "showvisualise": true    
   },
   "backend": {
