@@ -33,7 +33,6 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/myansible",
     "showvisualise": true    
   },
   "backend": {
