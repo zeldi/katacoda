@@ -17,6 +17,17 @@ cat << EOF > ~/myansible/install.yml
       service:
         name: nginx
         state: started
+    - name: copy index.html
+      copy:
+          src: files/index.html
+          dest: /usr/share/nginx/html/index.html
 
 EOF
 ```{{execute}}
+
+Run `install.yml` playbook
+
+`ansible-playbook -i myhosts.ini install.yml`{{execute}}
+
+Test HTTP connection:
+`curl node-1:80/index.html`{{execute}}

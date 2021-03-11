@@ -30,6 +30,6 @@ The playbook should look like this:
 * hosts - this play will be executed on the group web
 * become - this play will use all tasks in privileged mode (root)
 * tasks - the tasks are outlined as follows:
-  - Install NGINX package (clue: use `yum` module)
-  - Enable/start NGINX service (clue: use `service` module)
-  - Copy over an `index.html` file to each web host (clue: use `copy` module)
+  - Install NGINX package (hint: use `yum` module)
+  - Enable/start NGINX service (hint: use `service` module)
+  - Copy over an `index.html` file to each web host (hint: use `copy` module)
