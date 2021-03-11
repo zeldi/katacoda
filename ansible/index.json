@@ -24,7 +24,8 @@
     },
     "intro": {
       "text": "intro.md",
-      "credits": "__Author:__ Zeldi Suryady"
+      "credits": "__Author:__ Zeldi Suryady",
+      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"
