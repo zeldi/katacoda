@@ -26,9 +26,15 @@ cat << EOF > ~/myansible/install.yml
 EOF
 ```{{execute}}
 
-Run `install.yml` playbook
+Run playbook to install and deploy nginx service
 
 `ansible-playbook -i myhosts.ini install.yml`{{execute}}
 
-Test HTTP connection:
-`curl node-1:80/index.html`{{execute}}
+Test HTTP connection to node-1:
+`curl localhost:8081/index.html`{{execute}}
+
+Test HTTP connection to node-2:
+`curl localhost:8082/index.html`{{execute}}
+
+Test HTTP connection to node-3:
+`curl localhost:8083/index.html`{{execute}}
