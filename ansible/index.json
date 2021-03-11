@@ -15,24 +15,9 @@
     "assets": {
         "host01": [
           {
-            "file": "ansible.cfg",
-            "target": "/root"
-          },
-          {
             "file": "hosts",
-            "target": "/root"
-          },
-          {
-            "file": "playbook.yml",
-            "target": "/root"
-          },
-          {
-            "file": "hostname.yml",
-            "target": "/root"
-          },
-          {
-            "file": "config",
-            "target": "/root/.ssh"
+            "target": "/etc/",
+            "chmod": 644
           }
         ]
     },
@@ -47,7 +32,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "terminals": [{"name": "control", "target":"host01"},{"name":"host02","target":"host02"},{"name":"host03","target":"host03"}],
+    "terminals": [{"name": "control", "target":"host01"}],
     "hideintro": true, "hidefinish": true,        
     "showvisualise": true    
   },
