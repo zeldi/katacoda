@@ -32,8 +32,6 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "terminals": [{"name": "control", "target":"host01"}],
-    "hideintro": true, "hidefinish": true,        
     "showvisualise": true    
   },
   "backend": {
