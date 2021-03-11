@@ -6,6 +6,7 @@ cat << EOF > ~/myansible/install.yml
 ---
 - name: Install NGINX Server
   hosts: web
+  gather_facts: False
   remote_user: centos
   become: yes
   tasks:
