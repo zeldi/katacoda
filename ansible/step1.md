@@ -21,7 +21,7 @@ To setup the managed nodes, execute the following command to prepare the exercis
 
 `yum install -y git && git clone https://github.com/zeldi/katacoda-scenarios.git && cd katacoda-scenarios/master-course-data/assets/tools/`{{execute}}
 
-`bash ./kata_setup.sh`{{execute}}
+`bash ./kata_setup.sh && cd ~/myansible`{{execute}}
 
 # Updating /etc/hosts
 
