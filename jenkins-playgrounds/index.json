@@ -1,5 +1,6 @@
 {
-  "title": "Jenkin playground",
+  "private": true,
+  "title": "Jenkin Playground",
   "description": "Playground to learn Jenkins",
   "difficulty": "Beginner",
   "time": "30",
