@@ -1,6 +1,7 @@
 {
   "title": "Learning Ansible",
   "description": "Set of Ansible courses",
+  "icon": "fa-autoprefixer",
   "courses": [{
     "course_id": "ansible01",
     "title": "Learning Ansible - part1",

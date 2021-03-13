@@ -44,7 +44,7 @@ Let's create a playbook called `sync.yml` that perform the following tasks:
         src: /root/myansible/myhosts.ini
         dest: /home/centos/inventory/myhosts.ini
 
-```
+```{{copy}}
 
 ## Execute the Ansible Playbook
 
