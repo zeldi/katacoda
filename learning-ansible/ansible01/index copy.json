@@ -1,0 +1,56 @@
+{
+  "title": "Learning Ansible",
+  "description": "A humble sandbox by a humble guy, to start learning ANSIBLE",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      }
+    ],
+    "assets": {
+        "host01": [
+          {
+            "file": "ansible.cfg",
+            "target": "/root"
+          },
+          {
+            "file": "hosts",
+            "target": "/root"
+          },
+          {
+            "file": "playbook.yml",
+            "target": "/root"
+          },
+          {
+            "file": "hostname.yml",
+            "target": "/root"
+          },
+          {
+            "file": "config",
+            "target": "/root/.ssh"
+          }
+        ]
+    },
+    "intro": {
+      "text": "intro.md",
+      "credits": "__Author:__ Zeldi Suryady, (TM RnD)",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "terminals": [{"name": "control", "target":"host01"},{"name":"host02","target":"host02"},{"name":"host03","target":"host03"}]
+  },
+  "backend": {
+    "imageid": "rhel8-cluster3"
+  }
+}

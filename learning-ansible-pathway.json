@@ -1,0 +1,10 @@
+{
+  "title": "Learning Ansible",
+  "description": "Set of Ansible courses",
+  "courses": [{
+    "course_id": "ansible01",
+    "title": "Learning Ansible - part1",
+    "description": "Learning Ansible - part1"
+  }
+  ]
+}
