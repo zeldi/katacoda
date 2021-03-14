@@ -1,6 +1,6 @@
 {
   "title": "Learning Ansible",
-  "description": "Playground to get started with Ansible, learn basic Ansible and how to use Ansible for DevOps practisioners",
+  "description": "Playground to get started with Ansible, learn basic Ansible and how to use Ansible for DevOps practitioners",
   "icon": "fa-katacoda",
   "courses": [{
     "course_id": "ansible01",
