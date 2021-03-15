@@ -23,7 +23,7 @@
     },
     "assets": {
       "host01": [
-          {"file": "Dockerfile", "target": "/home/scrapbook/tutorial"}
+          {"file": "Dockerfile", "target": "/root"}
       ]
     }
   },
