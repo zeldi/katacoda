@@ -16,11 +16,11 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "background.sh"
     },
     "finish": {
-      "text": "finish.md",
-      "courseData": "background.sh"
+      "text": "finish.md"
     },
     "assets": {
       "host01": [
