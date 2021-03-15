@@ -20,7 +20,11 @@
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": {
+      "client": [
+          {"file": "app.js", "target": "/root/"}
+      ]
   },
   "environment": {
     "showdashboard": true,
@@ -29,7 +33,7 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
-      "imageid": "ubuntu",
+      "imageid": "centos",
       "port": 8080
   }
 }
