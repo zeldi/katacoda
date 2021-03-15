@@ -25,6 +25,7 @@
       "client": [
           {"file": "app.js", "target": "/root/"}
       ]
+    }
   },
   "environment": {
     "showdashboard": true,
