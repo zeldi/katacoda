@@ -22,7 +22,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "530b0f6bcc94": [
+      "host01": [
           {"file": "app.js", "target": "/root/"}
       ]
     }
