@@ -23,7 +23,7 @@
     },
     "assets": {
       "host01": [
-          {"file": "app.txt", "target": "/root"}
+          {"file": "Dockerfile", "target": "/root"}
       ]
     }
   },
