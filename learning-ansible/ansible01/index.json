@@ -54,7 +54,6 @@
       "text": "finish.md"
     }
   },
-  "files": ["Dockerfile"],
   "environment": {
     "uilayout": "terminal",
     "showvisualise": true    
