@@ -23,7 +23,7 @@
     },
     "assets": {
       "host01": [
-          {"file": "app.js", "target": "/root/"}
+          {"file": "Dockerfile", "target": "/home/scrapbook/tutorial"}
       ]
     }
   },
