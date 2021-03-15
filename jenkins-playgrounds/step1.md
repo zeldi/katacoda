@@ -1,13 +1,13 @@
-This is a fork of https://github.com/oveits/jenkins-scenarios of Ben Hall, upgraded from Jenkins 1.651.1 to 2.60.3-alpine.
-
 We will prepare an environment with a Jenkins server running as a Docker Container.
+
+`docker build -t jenkins:zeldi .`{{execute}}
 
 First we start the container in detached mode with a tail to a log file we will create and use later:
 
 `docker run -d -u root --rm --name jenkins \
     -p 8080:8080 -p 50000:50000 \
     --entrypoint bash \
-    jenkins:2.60.3-alpine \
+    jenkins:zeldi \
     -c "tail -F /jenkins.log"`{{execute}}
     
 
