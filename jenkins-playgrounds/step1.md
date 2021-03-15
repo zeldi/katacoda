@@ -1,6 +1,6 @@
 We will prepare an environment with a Jenkins server running as a Docker Container.
 
-`docker build -t jenkins:zeldi .`{{execute}}
+`cd jenkins-docker && docker build -t jenkins:zeldi .`{{execute}}
 
 First we start the container in detached mode with a tail to a log file we will create and use later:
 
