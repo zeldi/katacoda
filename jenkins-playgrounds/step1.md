@@ -2,7 +2,7 @@
 First we start the Jenkins container in detached mode with a tail to a log file we will create and use later:
 
 `docker run -d -u root --rm --name jenkins  -p 8080:8080 -p 50000:50000 --env JENKINS_ADMIN_ID=admin \
- --env JENKINS_ADMIN_PASSWORD=password zeldi/jenkins:v1`{{execute}}
+ --env JENKINS_ADMIN_PASSWORD=password zeldi/jenkins:v2`{{execute}}
     
 Check Jenkins process:
 
