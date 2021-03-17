@@ -1,11 +1,7 @@
-We will prepare an environment with a Jenkins server running as a Docker Container.
 
-`cd jenkins-docker && docker build -t jenkins:zeldi .`{{execute}}
+First we start the Jenkins container in detached mode with a tail to a log file we will create and use later:
 
-First we start the container in detached mode with a tail to a log file we will create and use later:
-
-`docker run -d -u root --rm --name jenkins \
- -p 8080:8080 -p 50000:50000  jenkins:zeldi`{{execute}}
+`docker run -d -u root --rm --name jenkins  -p 8080:8080 -p 50000:50000 zeldi/jenkins:v1`{{execute}}
     
 Check Jenkins process:
 
