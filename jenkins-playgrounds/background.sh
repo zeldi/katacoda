@@ -1,6 +1,5 @@
 hostnamectl set-hostname host01
 
-git clone https://github.com/zeldi/jenkins-docker.git
-cd /root/jenkins-docker
-sleep 2
-clear
+curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+
+sudo yum install nodejs -y
