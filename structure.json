@@ -1,5 +1,6 @@
 {
    "items": [
-     { "path": "hello-world" }
+     { "path": "hello-world" },
+     { "path": "k3s-playground"}
    ]
  }
