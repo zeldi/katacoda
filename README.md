@@ -1,10 +1,8 @@
-# Interactive Katacoda Scenarios
+# Interactive Killercoda Scenarios
 
-[![](http://shields.katacoda.com/katacoda/zeldi/count.svg)](https://www.katacoda.com/zeldi "Get your profile on Katacoda.com")
-
-Visit https://www.katacoda.com/zeldi to view the profile and interactive scenarios
+Visit https://killercoda.com/zeldi-suryady to view the profile and interactive scenarios
 
 ### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
+Visit https://killercoda.com/creators to learn more about creating Killercoda scenarios
 
-For examples, visit https://github.com/katacoda/scenario-example
+For examples, visit https://github.com/killercoda/scenario-examples
