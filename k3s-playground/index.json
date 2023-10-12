@@ -13,9 +13,6 @@
       "text": "intro.md",
       "credits": ""
     }
-    // "finish": {
-    //   "text": "finish.md"
-    // }
   },
   "environment": {
     "uilayout": "terminal",
