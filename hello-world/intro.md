@@ -1,3 +1,3 @@
-# Getting Started with ANSIBLE
+# Linux Ubuntu Sandbox
 
-This is a Ansible Sandbox.
+Use this senario as your Linux Sandbox.
