@@ -6,9 +6,14 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Step 0 - Pre-Installation",
+      "text": "step0.md"
+    },
+    {
+      "title": "Step 1 - K3s Installation",
       "text": "step1.md"
-    }],
+    }
+  ],
     "intro": {
       "text": "intro.md",
       "credits": ""
