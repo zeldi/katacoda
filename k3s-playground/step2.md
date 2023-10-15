@@ -1,19 +1,17 @@
-This is your first step.
+## Basic Deployment
 
-## Pre-Installation
+K3s is like  other Kubernetes clusters, let's run a standard application. Nothing here is unique to K3s and is germane to standard Kubernetes.
 
-We want to check the computer resources before installing k3s so that we can compare them to the resources used after installing a single-node K3s cluster.
 
-Inspect the current disk and memory usage (before the installation of K3s):
+### Example 1: 
 
+**Create a deployment for an application**
 ```
-df -h
+kubectl create deployment my-nginx --image=nginx
 ```{{exec}}
 
 
-Inspect the memory usage (before the installation of K3s):
 ```
-free -h
+kubectl get pods
 ```{{exec}}
-
 
