@@ -1,3 +1,5 @@
+This is your first step.
+
 ## Pre-Installation
 
 We want to check the computer resources before installing k3s so that we can compare them to the resources used after installing a single-node K3s cluster.

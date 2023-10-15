@@ -35,3 +35,26 @@ df -h
 ```
 free -h 
 ```{{exec}}
+
+## K3s Kubernetes Control Plane
+You can lookat the whole cluster with the `kubectl cluster-info`:
+```
+kubectl cluster-info
+```{{exec}}
+
+You will notice that :
+* The Kubernetes API is exposed on port 6443
+* The standard _CoreDNS_ and _Metrics-server_ is present. 
+
+To further inspect the control plane:
+
+```
+kubectl get pods,services --all-namespaces
+``` {{exec}}
+
+If you're concerned about the memory footprint of K3s, list the base component memory impacts while the cluster is in a quiet state:
+
+```
+top -o %MEM -b -n1 | head -n 24
+```{{exec}}
+
