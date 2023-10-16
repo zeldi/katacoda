@@ -1,10 +1,6 @@
-## Basic Deployment
+## Basic Deployment - Example No.1
 
 K3s is like  other Kubernetes clusters, let's run a standard application. Nothing here is unique to K3s and is germane to standard Kubernetes.
-
-
-### Example 1: 
-
 
 **Create a deployment for an application**
 
@@ -26,3 +22,26 @@ The above command enable user to temporarily access the application via localhos
 ```
 curl http://localhost:8080
 ```{{exec}}
+
+However, `Port-forwarding` is mainly intended for debugging and development purposes. It's not suitable for production traffic or long-term solutions because it lacks the reliability and robustness required for production environments. 
+
+Therefore, you will make the application accessible through a Kubernetes Service. In this instance, you will illustrate the process of exposing the Deployment using a `NodePort` Service:
+
+```
+kubectl expose deployment my-nginx --type=NodePort --port=80
+```{{exec}}
+
+See that the application objects are created and running:
+
+```
+kubectl get pods,services
+```{{exec}}
+
+We can inspect if  the NGINX application responds as expected:
+
+```
+curl http://localhost:30245
+```{{exec}}
+
+
+
