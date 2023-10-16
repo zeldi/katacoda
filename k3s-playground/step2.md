@@ -1,4 +1,4 @@
-## Basic Deployment - Example No.1
+## Example No.1
 
 K3s is like  other Kubernetes clusters, let's run a standard application. Nothing here is unique to K3s and is germane to standard Kubernetes.
 
@@ -42,6 +42,4 @@ We can inspect if  the NGINX application responds as expected:
 ```
 curl http://localhost:30245
 ```{{exec}}
-
-
 

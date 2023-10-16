@@ -14,8 +14,12 @@
       "text": "step1.md"
     },
     {
-      "title": "Step 2 - Basic Deployment",
+      "title": "Step 2 - Imperative Deployment",
       "text": "step2.md"
+    },
+    {
+      "title": "Step 3 - Declarative Deployment",
+      "text": "step3.md"
     }
 
   ],
