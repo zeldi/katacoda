@@ -8,8 +8,9 @@ In this lab, you will learn how to:
 
 - [x] Install K3s on Linux
 - [x] Use K3s just like other Kubernetes clusters
-- [x] Access a Kubernetes Dashboard
-- [x] Add worker nodes to a K3s cluster
+- [x] Imperative kubernetes Command
+- [x] Declarative Kubernetes Command
+- [x] Un-Install K3s 
 
 K3s is a certified Kubernetes distribution and a Cloud Native Computing Foundation sandbox project.
 
