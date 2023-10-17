@@ -53,7 +53,8 @@ spec:
       nodePort: 30007
 ```
 
-```kubectl get svc```{{exec}}
+Inspect the service:
+`kubectl get svc`{{exec}}
 
 Once service is created, you may access your application via the following link:
 
