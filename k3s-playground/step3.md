@@ -53,6 +53,10 @@ spec:
       nodePort: 30007
 ```
 
+```kubectl get svc```{{exec}}
+
 Once service is created, you may access your application via the following link:
 
-[ACCESS PODINFO SERVICE]({{TRAFFIC_HOST1_30007}})
+[ACCESS Deployed Application Here]({{TRAFFIC_HOST1_30007}})
+
+
