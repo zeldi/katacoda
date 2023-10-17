@@ -26,7 +26,11 @@
     "intro": {
       "text": "intro.md",
       "credits": ""
-    }
+    },
+    "finish": {
+      "title":"Uninstall K3s",
+      "text": "finish.md"
+    }    
   },
   "environment": {
     "uilayout": "terminal",

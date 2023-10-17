@@ -1,5 +1,3 @@
-## K3s-Installation
-
 Execute the K3s installation using the following command:
 
 ```

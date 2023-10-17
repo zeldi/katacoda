@@ -1,4 +1,3 @@
-## Example No.2
 
 Another altenative to deploy an application is by creating yaml declarative file
 
@@ -39,11 +38,10 @@ spec:
       targetPort: 9898
       nodePort: 30007
 
-```
+```{{copy}}
 
 Apply the deployment file against our k3s cluster:
 
-```
-kubectl apply -f podinfo.yaml
-```
+`kubectl apply -f podinfo.yaml`{{exec}}
+
 

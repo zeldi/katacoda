@@ -1,6 +1,6 @@
-## Example No.1
 
-K3s is like  other Kubernetes clusters, let's run a standard application. Nothing here is unique to K3s and is germane to standard Kubernetes.
+K3s is like  other Kubernetes clusters, Nothing here is unique to K3s and is germane to standard Kubernetes.
+As in any type of kubernetes cluster, one way to deploy application is using `IMPERATIVE` command line:.  
 
 **Create a deployment for an application**
 
