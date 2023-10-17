@@ -1,7 +1,7 @@
 
 Another altenative to deploy an application is by creating yaml declarative file
 
-Create a deployment file `podinfo.yaml`:
+Create a deployment file `deployment-podinfo.yaml`:
 
 ```
 apiVersion: apps/v1
@@ -23,6 +23,20 @@ spec:
           ports:
             - name: http
               containerPort: 9898
+```{{copy}}
+
+Apply the deployment file against our k3s cluster:
+
+`kubectl apply -f deployment-podinfo.yaml`{{exec}}
+
+
+To check whether our pod is already running, execute the following command:
+
+`kubectl get pod`{{exec}}
+
+Once the pod is running, you declare a service (i.e `svc-podinfo.yaml`) for accessing the application:
+
+```
 ---
 apiVersion: v1
 kind: Service
@@ -37,11 +51,8 @@ spec:
       port: 8080
       targetPort: 9898
       nodePort: 30007
+```
 
-```{{copy}}
+Once service is created, you may access your application via the following link:
 
-Apply the deployment file against our k3s cluster:
-
-`kubectl apply -f podinfo.yaml`{{exec}}
-
-
+[ACCESS PODINFO SERVICE]({{TRAFFIC_HOST1_30007}})

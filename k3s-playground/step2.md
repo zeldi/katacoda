@@ -37,8 +37,11 @@ See that the application objects are created and running:
 kubectl get pods,services
 ```{{exec}}
 
-We can inspect if  the NGINX application responds as expected:
+To inspect the detail information on newly created service, execute the following CLI:
 
+`kubectl get service my-nginx`{{exec}}
+
+We can inspect if the NGINX application responds as expected:
 ```
 curl http://localhost:30245
 ```{{exec}}
