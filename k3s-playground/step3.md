@@ -51,7 +51,11 @@ spec:
       port: 8080
       targetPort: 9898
       nodePort: 30007
-```
+```{{copy}}
+
+Create Service to access the POD:
+`kubectl apply -f svc-podinfo.yaml`{{exec}}
+
 
 Inspect the service:
 `kubectl get svc`{{exec}}
