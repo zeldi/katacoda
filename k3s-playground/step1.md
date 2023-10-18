@@ -22,8 +22,9 @@ systemctl status k3s.service
 k3s kubectl get nodes
 ```{{exec}}
 
-** Inspect K3s Resource consumption**
-To gauge the space and memory usage of k3s, we examine the resource footprint following the installation of K3s:
+*Inspect K3s Resource consumption*
+
+In the previous step, we obtained the current disk and memory utilization of this Linux system before installing K3s. To assess the disk and memory usage of K3s, we are now examining the resource consumption after the K3s installation.
 
 ```
 df -h 

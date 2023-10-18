@@ -53,8 +53,11 @@ spec:
       nodePort: 30007
 ```{{copy}}
 
-Create Service to access the POD:
-`kubectl apply -f svc-podinfo.yaml`{{exec}}
+Create the above service to give access the POD:
+
+```
+kubectl apply -f svc-podinfo.yaml
+```{{exec}}
 
 
 Inspect the service:
