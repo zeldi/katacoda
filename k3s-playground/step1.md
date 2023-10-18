@@ -22,6 +22,7 @@ systemctl status k3s.service
 k3s kubectl get nodes
 ```{{exec}}
 
+** Inspect K3s Resource consumption**
 To gauge the space and memory usage of k3s, we examine the resource footprint following the installation of K3s:
 
 ```
@@ -42,6 +43,10 @@ kubectl cluster-info
 You will notice that :
 * The Kubernetes API is exposed on port 6443
 * The standard _CoreDNS_ and _Metrics-server_ is present. 
+
+You can execute the command below to inspect the main component of Control node:
+`kubectl get componentstatus`{{exec}}
+
 
 To further inspect the control plane:
 
