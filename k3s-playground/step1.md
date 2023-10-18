@@ -45,7 +45,10 @@ You will notice that :
 * The standard _CoreDNS_ and _Metrics-server_ is present. 
 
 You can execute the command below to inspect the main component of Control node:
-`kubectl get componentstatus`{{exec}}
+```
+kubectl get componentstatus
+```{{exec}}
+
 
 
 To further inspect the control plane:
