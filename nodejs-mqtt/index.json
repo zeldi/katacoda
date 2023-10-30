@@ -6,9 +6,14 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Step 1 - Installation NodeJS and MQTT",
       "text": "step1.md"
-    }],
+    },
+    {
+      "title": "Step 2 - Exploring NodeJS and MQTT",
+      "text": "step2.md"
+    }    
+  ],
     "intro": {
       "text": "intro.md",
       "credits": ""

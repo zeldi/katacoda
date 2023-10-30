@@ -30,12 +30,12 @@ npm -v
 sudo apt-get install mosquitto -y
 sudo apt-get install mosquitto-clients -y
 sudo systemctl enable mosquitto.service
-```
+```{{exec}}
 
 Check whether the MQTT Broker service is running
 ```
 systemctl status mosquitto.service --no-pager
-```
+```{{exec}}
 
 Up to this point, NODEJS and MQTT have been installed. 
 Get ready to explore further !!!
