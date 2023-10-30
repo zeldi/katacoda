@@ -1,6 +1,6 @@
 {
    "items": [
-     { "path": "hello-world" },
+     { "path": "nodejs-mqtt" },
      { "path": "k3s-playground"}
    ]
  }
