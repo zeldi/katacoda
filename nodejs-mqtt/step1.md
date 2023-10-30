@@ -1,6 +1,6 @@
 This step will install NodeJS and MQTT 
 
-## Install NodeJS-v20.9.0
+**Install NodeJS-v20.9.0**
 
 Execute the following command to install Nodejs version 20.9.0
 
@@ -23,3 +23,19 @@ Check the installed version of NodeJS and NPM package manager
 node -v
 npm -v
 ```{{exec}}
+
+**Install MQTT**
+
+```
+sudo apt-get install mosquitto -y
+sudo apt-get install mosquitto-clients -y
+sudo systemctl enable mosquitto.service
+```
+
+Check whether the MQTT Broker service is running
+```
+systemctl status mosquitto.service --no-pager
+```
+
+Up to this point, NODEJS and MQTT have been installed. 
+Get ready to explore further !!!
