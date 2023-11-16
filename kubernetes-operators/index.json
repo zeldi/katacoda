@@ -14,7 +14,7 @@
        ],
        "assets": {
          "host01": [
-            {"file": "**", "target": "/src"},
+            {"file": "**", "target": "/src"}
          ],
        "finish": {
            "text": "finish.md"
