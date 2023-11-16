@@ -4,7 +4,7 @@
    "details": {
        "intro": {
            "text": "intro.md",
-           "code": "background.sh"
+           "background": "background.sh"
        },
        "steps": [
            {
@@ -14,7 +14,7 @@
        ],
        "assets": {
          "host01": [
-            {"file": "**", "target": "/src"}
+            {"file": "**", "target": "/root/src"}
          ]
       },
        "finish": {
