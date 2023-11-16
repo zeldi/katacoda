@@ -1,6 +1,6 @@
 {
   "private": true,
-  "title": "General Purpose Ubuntu Environment",
+  "title": "General Purpose Ubuntu Environment (with NodeJS and MQTT)",
   "description": "General Purpose Ubuntu Environment",
   "difficulty": "beginner",
   "time": "2 minutes",

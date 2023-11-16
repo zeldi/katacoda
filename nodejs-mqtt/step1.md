@@ -28,7 +28,13 @@ npm -v
 
 ```
 sudo apt-get install mosquitto -y
+```{{exec}}
+
+```
 sudo apt-get install mosquitto-clients -y
+```{{exec}}
+
+```
 sudo systemctl enable mosquitto.service
 ```{{exec}}
 

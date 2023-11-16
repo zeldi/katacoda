@@ -1,0 +1,26 @@
+{
+   "title": "Learning Operator in Kubernetes",
+   "description": "Build an operator with kubebuilder",
+   "details": {
+       "intro": {
+           "text": "intro.md",
+           "code": "background.sh"
+       },
+       "steps": [
+           {
+               "title": "Writing Custom Resource Definitions",
+               "text": "step1.md"
+           }
+       ],
+       "assets": {
+         "host01": [
+            {"file": "**", "target": "/src"},
+         ],
+       "finish": {
+           "text": "finish.md"
+       }
+   },
+   "backend": {
+       "imageid": "ubuntu"
+   }
+}

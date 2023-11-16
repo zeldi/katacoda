@@ -1,0 +1,9 @@
+apiVersion: k8s.tmrnd.com.my/v1
+kind: PdfDocument
+metadata:
+  name: my-document
+spec:
+  docName: my-text
+  docText: |
+    ### My Document
+    Hello **World!!*

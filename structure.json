@@ -1,6 +1,7 @@
 {
    "items": [
      { "path": "nodejs-mqtt" },
-     { "path": "k3s-playground"}
-   ]
+     { "path": "k3s-playground"},
+     { "path": "kubernetes-operators"}
+    ]
  }
