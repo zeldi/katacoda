@@ -4,18 +4,19 @@
    "details": {
        "intro": {
            "text": "intro.md",
-           "code": "background.sh"
+           "code": "foreground.sh"
        },
        "steps": [
            {
-               "title": "Writing Custom Resource Definitions",
+               "title": "Writing Customed Resource Definitions",
                "text": "step1.md"
            }
        ],
        "assets": {
          "host01": [
             {"file": "**", "target": "/src"}
-         ],
+         ]
+      },
        "finish": {
            "text": "finish.md"
        }
