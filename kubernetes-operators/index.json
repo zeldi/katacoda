@@ -4,7 +4,6 @@
    "details": {
        "intro": {
          "text": "intro.md",
-         //   "foreground": "foreground.sh"
          "code": "install.sh"
        },
        "steps": [
@@ -23,7 +22,6 @@
        }
    },
    "backend": {
-      //  "imageid": "ubuntu"
       "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
    }
 }
