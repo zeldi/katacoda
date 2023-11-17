@@ -3,8 +3,9 @@
    "description": "Build an operator with kubebuilder",
    "details": {
        "intro": {
-           "text": "intro.md",
-           "foreground": "foreground.sh"
+         "text": "intro.md",
+         //   "foreground": "foreground.sh"
+         "code": "install.sh"
        },
        "steps": [
            {
@@ -22,6 +23,7 @@
        }
    },
    "backend": {
-       "imageid": "ubuntu"
+      //  "imageid": "ubuntu"
+      "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
    }
 }
