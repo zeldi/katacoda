@@ -16,7 +16,7 @@ clear
 
 echo "Creating GOPATH directory"
 mkdir -p /opt/go/{bin,pkg,src};
-echo 'source <(GOPATH=/opt/go)' >>~/.bashrc
+echo "export GOPATH=/opt/go" >> ~/.bashrc
 source ~/.bashrc
 clear 
 echo "\$GOPATH variable is set to ${GOPATH}"
