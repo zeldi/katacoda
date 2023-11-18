@@ -1,5 +1,5 @@
 version=v3.13.0
-curl -L -o kubebuilder https://go.kubebuilder.io/dl/${version}/$(go env GOOS)/$(go env GOARCH)
+curl -L -o kubebuilder https://github.com/kubernetes-sigs/kubebuilder/releases/download/${version}/kubebuilder_$(go env GOOS)_$(go env GOARCH)
 chmod +x kubebuilder && mv kubebuilder /usr/local/bin/
 
 echo "Install/Update go"
